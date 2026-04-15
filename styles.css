@@ -1,0 +1,50 @@
+@font-face {
+    font-family: 'DigitalFont';
+    src: 
+         url('DigitalDisplay.ttf') format('truetype');
+}
+
+.body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: lightsteelblue;
+}
+.calculator {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 250px;
+    height: 500px;
+    background-color: blanchedalmond;
+}
+
+.display {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    width: 90%;
+    height: 80px;
+    background-color: white;
+    font-size: 2em;
+    padding: 10px;
+    box-sizing: border-box;
+    font-family: 'DigitalFont', sans-serif;
+    font-size: 80px;
+}
+
+.buttonArea {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 20px;
+}
+button{
+    flex: 0 0 20%;
+}
+
